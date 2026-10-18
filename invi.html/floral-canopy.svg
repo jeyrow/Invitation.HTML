@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 360" fill="none">
+  <defs>
+    <radialGradient id="rosePetal" cx="34%" cy="26%" r="82%">
+      <stop stop-color="#fffaf3"/>
+      <stop offset=".38" stop-color="#f6d9d5"/>
+      <stop offset=".78" stop-color="#e9aab0"/>
+      <stop offset="1" stop-color="#c87e8d"/>
+    </radialGradient>
+    <radialGradient id="centerGold" cx="35%" cy="30%" r="75%">
+      <stop stop-color="#fff1b2"/>
+      <stop offset="1" stop-color="#ba9149"/>
+    </radialGradient>
+    <linearGradient id="leafGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c5c99a"/>
+      <stop offset=".55" stop-color="#758b69"/>
+      <stop offset="1" stop-color="#526d59"/>
+    </linearGradient>
+    <linearGradient id="lavender" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#c5b2d7"/>
+      <stop offset="1" stop-color="#8b79a7"/>
+    </linearGradient>
+    <path id="petal" d="M0 2C-8-2-15-13-12-25c1-8 7-17 12-22 5 5 11 14 12 22C15-13 8-2 0 2Z" fill="url(#rosePetal)" stroke="#d49aa0" stroke-width="1"/>
+    <g id="blossom">
+      <use href="#petal"/>
+      <use href="#petal" transform="rotate(45)"/>
+      <use href="#petal" transform="rotate(90)"/>
+      <use href="#petal" transform="rotate(135)"/>
+      <use href="#petal" transform="rotate(180)"/>
+      <use href="#petal" transform="rotate(225)"/>
+      <use href="#petal" transform="rotate(270)"/>
+      <use href="#petal" transform="rotate(315)"/>
+      <circle r="8" fill="url(#centerGold)" stroke="#ad8243" stroke-width="1"/>
+      <g fill="#96703b">
+        <circle cx="-3" cy="-2" r="1"/><circle cx="3" cy="-2" r="1"/>
+        <circle cx="-3" cy="3" r="1"/><circle cx="2" cy="3" r="1"/>
+        <circle cy=".5" r="1"/>
+      </g>
+    </g>
+    <g id="peony">
+      <use href="#petal" transform="scale(1.22) rotate(0)"/>
+      <use href="#petal" transform="scale(1.22) rotate(30)"/>
+      <use href="#petal" transform="scale(1.22) rotate(60)"/>
+      <use href="#petal" transform="scale(1.22) rotate(90)"/>
+      <use href="#petal" transform="scale(1.22) rotate(120)"/>
+      <use href="#petal" transform="scale(1.22) rotate(150)"/>
+      <use href="#petal" transform="scale(1.22) rotate(180)"/>
+      <use href="#petal" transform="scale(1.22) rotate(210)"/>
+      <use href="#petal" transform="scale(1.22) rotate(240)"/>
+      <use href="#petal" transform="scale(1.22) rotate(270)"/>
+      <use href="#petal" transform="scale(1.22) rotate(300)"/>
+      <use href="#petal" transform="scale(1.22) rotate(330)"/>
+      <use href="#petal" transform="scale(.82) rotate(18)"/>
+      <use href="#petal" transform="scale(.82) rotate(63)"/>
+      <use href="#petal" transform="scale(.82) rotate(108)"/>
+      <use href="#petal" transform="scale(.82) rotate(153)"/>
+      <use href="#petal" transform="scale(.82) rotate(198)"/>
+      <use href="#petal" transform="scale(.82) rotate(243)"/>
+      <use href="#petal" transform="scale(.82) rotate(288)"/>
+      <use href="#petal" transform="scale(.82) rotate(333)"/>
+      <use href="#petal" transform="scale(.48) rotate(0)"/>
+      <use href="#petal" transform="scale(.48) rotate(60)"/>
+      <use href="#petal" transform="scale(.48) rotate(120)"/>
+      <use href="#petal" transform="scale(.48) rotate(180)"/>
+      <use href="#petal" transform="scale(.48) rotate(240)"/>
+      <use href="#petal" transform="scale(.48) rotate(300)"/>
+      <circle r="4" fill="#e6b67b"/>
+    </g>
+    <g id="leaf">
+      <path d="M0 0C15-24 44-30 63-23 57-2 30 15 0 0Z" fill="url(#leafGreen)" stroke="#61795f" stroke-width="1.3"/>
+      <path d="M3-1C22-7 39-15 58-21M22-8l-5-12m20 5-1-13m-2 18 13 1" stroke="#d9d8ad" stroke-width="1.3" stroke-linecap="round"/>
+    </g>
+    <g id="tinyBloom">
+      <ellipse cy="-5" rx="3.4" ry="6" fill="url(#lavender)"/>
+      <ellipse cy="-5" rx="3.4" ry="6" fill="url(#lavender)" transform="rotate(72)"/>
+      <ellipse cy="-5" rx="3.4" ry="6" fill="url(#lavender)" transform="rotate(144)"/>
+      <ellipse cy="-5" rx="3.4" ry="6" fill="url(#lavender)" transform="rotate(216)"/>
+      <ellipse cy="-5" rx="3.4" ry="6" fill="url(#lavender)" transform="rotate(288)"/>
+      <circle r="1.8" fill="#e5c77b"/>
+    </g>
+  </defs>
+  <g stroke="#71866a" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M-20 101C131 5 285 23 419 77s240 52 347 5 226-91 347-39 223 94 352 31"/>
+    <path d="M185 42c-30 56-23 105 10 151M1250 42c-23 62-13 109 27 153"/>
+    <path d="M52 51c29 66 21 123-20 170m1327-157c-27 55-17 108 25 158"/>
+  </g>
+  <g>
+    <use href="#leaf" transform="translate(65 67) rotate(18) scale(.75)"/><use href="#leaf" transform="translate(113 42) rotate(200) scale(.72)"/>
+    <use href="#leaf" transform="translate(200 38) rotate(18) scale(.8)"/><use href="#leaf" transform="translate(257 38) rotate(201) scale(.72)"/>
+    <use href="#leaf" transform="translate(328 49) rotate(21) scale(.78)"/><use href="#leaf" transform="translate(390 66) rotate(199) scale(.74)"/>
+    <use href="#leaf" transform="translate(482 87) rotate(17) scale(.78)"/><use href="#leaf" transform="translate(542 91) rotate(202) scale(.74)"/>
+    <use href="#leaf" transform="translate(650 69) rotate(17) scale(.8)"/><use href="#leaf" transform="translate(711 48) rotate(200) scale(.76)"/>
+    <use href="#leaf" transform="translate(812 40) rotate(19) scale(.77)"/><use href="#leaf" transform="translate(875 28) rotate(203) scale(.78)"/>
+    <use href="#leaf" transform="translate(981 31) rotate(16) scale(.76)"/><use href="#leaf" transform="translate(1040 39) rotate(200) scale(.8)"/>
+    <use href="#leaf" transform="translate(1143 63) rotate(20) scale(.77)"/><use href="#leaf" transform="translate(1208 76) rotate(202) scale(.75)"/>
+    <use href="#leaf" transform="translate(1310 74) rotate(18) scale(.8)"/><use href="#leaf" transform="translate(1372 51) rotate(201) scale(.76)"/>
+    <use href="#leaf" transform="translate(170 139) rotate(196) scale(.55)"/><use href="#leaf" transform="translate(415 166) rotate(20) scale(.57)"/>
+    <use href="#leaf" transform="translate(730 167) rotate(198) scale(.55)"/><use href="#leaf" transform="translate(1050 151) rotate(18) scale(.58)"/>
+    <use href="#leaf" transform="translate(1280 154) rotate(198) scale(.56)"/>
+  </g>
+  <g>
+    <use href="#peony" transform="translate(107 49) scale(1.15)"/>
+    <use href="#blossom" transform="translate(151 43) scale(.48)"/>
+    <use href="#blossom" transform="translate(250 50) scale(.43)"/>
+    <use href="#blossom" transform="translate(192 32) scale(.72)"/>
+    <use href="#peony" transform="translate(318 56) scale(1.28)"/>
+    <use href="#blossom" transform="translate(373 71) scale(.48)"/>
+    <use href="#blossom" transform="translate(493 92) scale(.44)"/>
+    <use href="#blossom" transform="translate(439 84) scale(.76)"/>
+    <use href="#peony" transform="translate(564 93) scale(1.12)"/>
+    <use href="#blossom" transform="translate(620 83) scale(.46)"/>
+    <use href="#blossom" transform="translate(765 45) scale(.43)"/>
+    <use href="#blossom" transform="translate(691 58) scale(.73)"/>
+    <use href="#peony" transform="translate(826 36) scale(1.24)"/>
+    <use href="#blossom" transform="translate(884 26) scale(.44)"/>
+    <use href="#blossom" transform="translate(1000 32) scale(.48)"/>
+    <use href="#blossom" transform="translate(946 25) scale(.74)"/>
+    <use href="#peony" transform="translate(1069 48) scale(1.18)"/>
+    <use href="#blossom" transform="translate(1122 59) scale(.46)"/>
+    <use href="#blossom" transform="translate(1272 81) scale(.44)"/>
+    <use href="#blossom" transform="translate(1198 80) scale(.72)"/>
+    <use href="#peony" transform="translate(1321 72) scale(1.14)"/>
+    <use href="#blossom" transform="translate(1360 39) scale(.46)"/>
+    <use href="#blossom" transform="translate(1400 47) scale(.75)"/>
+  </g>
+  <g fill="none" stroke="#8b79a7" stroke-width="2.3" stroke-linecap="round">
+    <path d="M276 88c-7 43-3 84-25 126m500-135c-6 42 2 87-18 128m438-139c-8 48-2 89 23 133m-1047-113c8 39 3 65-11 93m1064-89c-9 34-3 62 13 91"/>
+  </g>
+  <g>
+    <use href="#tinyBloom" transform="translate(248 209)"/><use href="#tinyBloom" transform="translate(253 229) scale(.85)"/>
+    <use href="#tinyBloom" transform="translate(262 248) scale(.75)"/><use href="#tinyBloom" transform="translate(760 209)"/>
+    <use href="#tinyBloom" transform="translate(758 230) scale(.85)"/><use href="#tinyBloom" transform="translate(749 251) scale(.75)"/>
+    <use href="#tinyBloom" transform="translate(1194 222)"/><use href="#tinyBloom" transform="translate(1200 243) scale(.83)"/>
+    <use href="#tinyBloom" transform="translate(1210 263) scale(.74)"/><use href="#tinyBloom" transform="translate(215 176) scale(.78)"/>
+    <use href="#tinyBloom" transform="translate(1312 176) scale(.78)"/>
+  </g>
+</svg>
